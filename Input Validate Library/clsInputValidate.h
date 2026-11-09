@@ -19,4 +19,7 @@ public:
 	//Operation(4):
 	static bool isNumberBetweenF(float number, float from, float to);
 
+	//Operation(5):
+	static int ReadIntNumber(std::string msg = "Enter Number", std::string ErrorMsg = "\nInvalid input,\nEnter again: ");
+
 };
