@@ -8,9 +8,9 @@ A collection of input validation functions designed to make handling user input 
 
 ---
 
-## 🛠️ Technologies & Tools
-
 <div align="center">
+
+## 🛠️ Technologies & Tools
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
