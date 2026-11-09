@@ -95,3 +95,33 @@ double clsInputValidate::ReadDblNumberBetween(std::string msg, double from, doub
 			return number;
 	}
 }
+
+//Operation(9):
+int clsInputValidate::ReadPostiveIntNumber(std::string msg, std::string ErrorMes)
+{
+	int number;
+	while (true)
+	{
+		number = ReadIntNumber(msg);
+		bool isValid = number > 0;
+		if (!isValid)
+			std::cout << ErrorMes;
+		if (isValid)
+			return number;
+	}
+}
+
+//Operation(10):
+double clsInputValidate::ReadPostiveDblNumber(std::string msg, std::string ErrorMes)
+{
+	double number;
+	while (true)
+	{
+		number = ReadDblNumber(msg);
+		bool isValid = number > 0;
+		if (!isValid)
+			std::cout << ErrorMes;
+		if (isValid)
+			return number;
+	}
+}

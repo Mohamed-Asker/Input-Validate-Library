@@ -30,4 +30,10 @@ public:
 
 	//Operation(8):
 	static double ReadDblNumberBetween(std::string msg, double from, double to, std::string  ErrorMsg = "\nNumber is not within range.\n");
+
+	//Operation(9):
+	static int ReadPostiveIntNumber(std::string msg = "Enter Postive Number", std::string ErrorMes = "\nPlease enter a number greater than zero.\n");
+	
+	//Operation(10):
+	static double ReadPostiveDblNumber(std::string msg = "Enter Postive Number", std::string ErrorMes = "\nPlease enter a number greater than zero.\n");
 };
