@@ -8,16 +8,16 @@ public:
 
 	//Operations:
 	//Operation(1):
-	static bool isNumberBetweenI(int number, int from, int to);
+	static bool isNumberBetween(int number, int from, int to);
 
 	//Operation(2):
-	static bool isNumberBetweenS(short number, short from, short to);
+	static bool isNumberBetween(short number, short from, short to);
 
 	//Operation(3):
-	static bool isNumberBetweenD(double number, double from, double to);
+	static bool isNumberBetween(double number, double from, double to);
 
 	//Operation(4):
-	static bool isNumberBetweenF(float number, float from, float to);
+	static bool isNumberBetween(float number, float from, float to);
 
 	//Operation(5):
 	static int ReadIntNumber(std::string msg = "Enter Number", std::string ErrorMsg = "\nInvalid input,\nEnter again: ");
