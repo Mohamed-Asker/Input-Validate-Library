@@ -65,3 +65,20 @@ double clsInputValidate::ReadDblNumber(std::string msg, std::string ErrorMsg)
 			return number;
 	}
 }
+
+//Operation(7):
+int clsInputValidate::ReadIntNumberBetween(std::string msg, int from, int to, std::string ErrorMsg)
+{
+	int number;
+	while (true)
+	{
+		number = ReadIntNumber(msg);
+		bool isValid = isNumberBetweenI(number, from, to);
+
+		if (!isValid)
+			std::cout << ErrorMsg;
+
+		if (isValid)
+			return number;
+	}
+}

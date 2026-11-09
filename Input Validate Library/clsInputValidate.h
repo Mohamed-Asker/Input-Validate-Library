@@ -25,4 +25,6 @@ public:
 	//Operation(6):
 	static double ReadDblNumber(std::string msg = "Enter Number", std::string ErrorMsg = "\nInvalid input,\nEnter again: ");
 
+	//Operation(7):
+	static int ReadIntNumberBetween(std::string msg, int from, int to, std::string ErrorMsg = "\nNumber is not within range.\n");
 };
