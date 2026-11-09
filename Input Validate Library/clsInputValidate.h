@@ -27,4 +27,7 @@ public:
 
 	//Operation(7):
 	static int ReadIntNumberBetween(std::string msg, int from, int to, std::string ErrorMsg = "\nNumber is not within range.\n");
+
+	//Operation(8):
+	static double ReadDblNumberBetween(std::string msg, double from, double to, std::string  ErrorMsg = "\nNumber is not within range.\n");
 };

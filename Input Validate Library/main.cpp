@@ -5,7 +5,7 @@
 int main()
 {
 	
-	int B = clsInputValidate::ReadIntNumberBetween("Enter Number Between 1 and 10",1,10);
+	double B = clsInputValidate::ReadDblNumberBetween("Enter Number Between 5.5 and 10.5",5.5,10.5);
 	std::cout << B << "\n";
 	system("pause>0");
 	return 0;

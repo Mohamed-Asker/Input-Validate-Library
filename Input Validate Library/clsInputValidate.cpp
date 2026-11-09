@@ -74,10 +74,23 @@ int clsInputValidate::ReadIntNumberBetween(std::string msg, int from, int to, st
 	{
 		number = ReadIntNumber(msg);
 		bool isValid = isNumberBetweenI(number, from, to);
-
 		if (!isValid)
 			std::cout << ErrorMsg;
+		if (isValid)
+			return number;
+	}
+}
 
+//Operation(8):
+double clsInputValidate::ReadDblNumberBetween(std::string msg, double from, double to, std::string  ErrorMsg)
+{
+	double number;
+	while (true)
+	{
+		number = ReadDblNumber(msg);
+		bool isValid = isNumberBetweenD(number, from, to);
+		if (!isValid)
+			std::cout << ErrorMsg;
 		if (isValid)
 			return number;
 	}
