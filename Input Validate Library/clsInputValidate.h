@@ -22,4 +22,7 @@ public:
 	//Operation(5):
 	static int ReadIntNumber(std::string msg = "Enter Number", std::string ErrorMsg = "\nInvalid input,\nEnter again: ");
 
+	//Operation(6):
+	static double ReadDblNumber(std::string msg = "Enter Number", std::string ErrorMsg = "\nInvalid input,\nEnter again: ");
+
 };
